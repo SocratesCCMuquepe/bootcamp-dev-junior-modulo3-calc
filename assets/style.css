@@ -24,6 +24,7 @@ body{
 }
 input{
     height: 22px;
+    width: 280px;
     padding: 8px;
     font-size: 1.2rem;
     margin: 15px 70px;
@@ -38,7 +39,7 @@ button{
     background-color: #007afe;
     border: none;
     color: #fff;
-    padding: 15px 32px;
+    padding: 15px 28px;
     text-decoration: none;
     font-size: 1.2rem;
     border-radius: 4px;

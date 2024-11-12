@@ -13,16 +13,21 @@
         <div class="calc">
             <object></object>
             <h1>Calculadora</h1>
-            <input id="num1" type="number" />
-            <input id="num2" type="number" />
-            <button onclick="calc()">Somar</button>
+            <input placeholder="Digite um número" id="num1" type="number" />
+            <input placeholder="Digite um número" id="num2" type="number" />
+            <div>
+                <button onclick="calc('+')">+</button>
+                <button onclick="calc('-')">-</button>
+                <button onclick="calc('*')">*</button>
+                <button onclick="calc('/')">/</button>
+            </div>
             <input id="result" type="text" readonly />
         </div>
         <div class="history">
             <h1>Histórico</h1>
         </div>
     </div>
-<script src="assets/javascript.js"></script>
+    <script src="assets/javascript.js"></script>
 </body>
 
 </html>
